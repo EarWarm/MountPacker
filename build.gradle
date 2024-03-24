@@ -1,0 +1,88 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'org.javamodularity.moduleplugin' version '1.8.12'
+  id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group 'ru.mountcode.desktop'
+version '1.0.0'
+
+repositories {
+  mavenCentral()
+}
+
+ext {
+  junitVersion = '5.9.2'
+}
+
+sourceCompatibility = '21'
+targetCompatibility = '21'
+
+tasks.withType(JavaCompile).configureEach {
+  options.encoding = 'UTF-8'
+}
+
+application {
+  mainModule = 'ru.mountcode.desktop.mountpacker'
+  mainClass = 'ru.mountcode.desktop.mountpacker.MountPacker'
+}
+
+javafx {
+  version = '21.0.2'
+  modules = ['javafx.controls', 'javafx.fxml']
+}
+
+configurations {
+  include
+}
+
+dependencies {
+
+  implementation group: 'org.ow2.asm', name: 'asm', version: '9.6'
+  implementation group: 'org.ow2.asm', name: 'asm-tree', version: '9.6'
+
+  include group: 'org.ow2.asm', name: 'asm', version: '9.6'
+  include group: 'org.ow2.asm', name: 'asm-tree', version: '9.6'
+
+  include group: 'org.openjfx', name: 'javafx-base', version: '21.0.2', classifier: 'win'
+  include group: 'org.openjfx', name: 'javafx-graphics', version: '21.0.2', classifier: 'win'
+  include group: 'org.openjfx', name: 'javafx-controls', version: '21.0.2', classifier: 'win'
+  include group: 'org.openjfx', name: 'javafx-fxml', version: '21.0.2', classifier: 'win'
+
+  compileOnly 'org.projectlombok:lombok:1.18.30'
+  annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+jar {
+  duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+  from {
+    configurations.include.collect { it.isDirectory() ? it : zipTree(it) }
+  }
+
+  manifest {
+    attributes(
+            'Name': 'MountPacker',
+            'Main-class': 'ru.mountcode.desktop.mountpacker.MountPacker',
+            'Manifest-version': '1.0',
+            'Implementation-Title': 'MountPacker',
+            'Implementation-Vendor': 'MountCode',
+            'Implementation-URL': 'https://vk.com/mountcode',
+            'Implementation-Version': '1.0.0',
+            'Created-By': 'EarWarm (https://vk.com/ear_warm)'
+    )
+  }
+}
+
+gradle.projectsEvaluated {
+  tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+  }
+}
+
+test {
+  useJUnitPlatform()
+}

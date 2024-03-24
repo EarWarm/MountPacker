@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd97c7e9-1cf1-41c5-bc2a-48b1e6126c02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/MountPacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/controllers/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/utils/FileChooserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/ITransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/TransformersExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/optimization/GotoGotoInlineTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/optimization/GotoReturnInlineTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/optimization/NopRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/DeprecatedAccessRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/InnerClassRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/LineNumberRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/LocalVariableRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/OuterRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SignatureRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SourceDebugRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SourceFileRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SyntheticAccessRemoveTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/utils/ASMUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/utils/IOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/ExecutableJar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/Workspace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/application.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MountPacker" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MountPacker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MountPacker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2e65dsibRQTxyv2a0ZXsYfWMjju" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Coding/Projects/Java/Desktop/MountPacker/src/main/resources/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.17471264",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Projects\Java\Desktop\MountPacker\src\main\resources\assets" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.mountcode.desktop.mountpacker.application" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MountPacker [build]">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mountcode.desktop.mountpacker.HelloApplication" />
+      <module name="MountPacker.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mountcode.desktop.mountpacker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MountPacker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mountcode.desktop.mountpacker.MountPacker" />
+      <module name="MountPacker.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mountcode.desktop.mountpacker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MountPacker [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MountPacker [build]" />
+        <item itemvalue="Application.MountPacker" />
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd97c7e9-1cf1-41c5-bc2a-48b1e6126c02" name="Changes" comment="" />
+      <created>1711212279635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711212279635</updated>
+      <workItem from="1711212280956" duration="1720000" />
+      <workItem from="1711215474680" duration="2774000" />
+      <workItem from="1711219067637" duration="30764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
