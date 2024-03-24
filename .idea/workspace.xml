@@ -5,41 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd97c7e9-1cf1-41c5-bc2a-48b1e6126c02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/MountPacker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/controllers/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/utils/FileChooserUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/ITransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/TransformersExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/optimization/GotoGotoInlineTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/optimization/GotoReturnInlineTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/optimization/NopRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/DeprecatedAccessRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/InnerClassRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/LineNumberRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/LocalVariableRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/OuterRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SignatureRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SourceDebugRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SourceFileRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/transformers/impl/shrink/SyntheticAccessRemoveTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/asm/utils/ASMUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/utils/IOUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/ExecutableJar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/Workspace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/application.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +81,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.17471264",
@@ -197,7 +164,7 @@
       <updated>1711212279635</updated>
       <workItem from="1711212280956" duration="1720000" />
       <workItem from="1711215474680" duration="2774000" />
-      <workItem from="1711219067637" duration="30764000" />
+      <workItem from="1711219067637" duration="31636000" />
     </task>
     <servers />
   </component>
