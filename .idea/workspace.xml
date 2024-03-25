@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd97c7e9-1cf1-41c5-bc2a-48b1e6126c02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    <list default="true" id="bd97c7e9-1cf1-41c5-bc2a-48b1e6126c02" name="Changes" comment="Добавление лицензии MIT и обновление рабочей среды для IDEA.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/controllers/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/controllers/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/utils/FileChooserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/application/utils/FileChooserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/ExecutableJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/ExecutableJar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/Workspace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mountcode/desktop/mountpacker/workspace/Workspace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/application.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/application.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,26 +76,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Coding/Projects/Java/Desktop/MountPacker/src/main/resources/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.17471264",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Projects/Java/Desktop/MountPacker/src/main/resources/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.17471264&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\Projects\Java\Desktop\MountPacker\src\main\resources\assets" />
@@ -164,11 +171,25 @@
       <updated>1711212279635</updated>
       <workItem from="1711212280956" duration="1720000" />
       <workItem from="1711215474680" duration="2774000" />
-      <workItem from="1711219067637" duration="31636000" />
+      <workItem from="1711219067637" duration="31934000" />
+      <workItem from="1711352374216" duration="5350000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавление лицензии MIT и обновление рабочей среды для IDEA.">
+      <option name="closed" value="true" />
+      <created>1711305345694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711305345694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавление лицензии MIT и обновление рабочей среды для IDEA." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление лицензии MIT и обновление рабочей среды для IDEA." />
   </component>
 </project>

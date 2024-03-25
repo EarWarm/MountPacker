@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'ru.mountcode.desktop'
-version '1.0.0'
+version '1.1.0'
 
 repositories {
   mavenCentral()
@@ -71,7 +71,7 @@ jar {
             'Implementation-Title': 'MountPacker',
             'Implementation-Vendor': 'MountCode',
             'Implementation-URL': 'https://vk.com/mountcode',
-            'Implementation-Version': '1.0.0',
+            'Implementation-Version': '1.1.0',
             'Created-By': 'EarWarm (https://vk.com/ear_warm)'
     )
   }

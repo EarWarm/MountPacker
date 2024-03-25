@@ -1,6 +1,7 @@
 package ru.mountcode.desktop.mountpacker.workspace;
 
 import lombok.Getter;
+import lombok.Setter;
 import org.objectweb.asm.tree.ClassNode;
 import ru.mountcode.desktop.mountpacker.utils.IOUtils;
 
@@ -22,21 +23,40 @@ public class ExecutableJar {
     private HashMap<String, ClassNode> classes = null;
     private HashMap<String, byte[]> resources = null;
 
-    public ExecutableJar(File inputFile) {
-        this.readJar(inputFile);
+    @Setter
+    private File inputFile;
+    @Setter
+    private File outputFile;
+
+    public ExecutableJar() {
+        this(null, null);
+    }
+
+    public ExecutableJar(File inputFile, File outputFile) {
+        this.inputFile = inputFile;
+        this.outputFile = outputFile;
+    }
+
+    public void clear() {
+        this.classes = new HashMap<>();
+        this.resources = new HashMap<>();
     }
 
     public boolean isValid() {
         return this.classes != null && !this.classes.isEmpty();
     }
 
-    public void writeJar(File outputFile) {
-        if (outputFile.exists()) {
-            outputFile.delete();
+    public void writeJar() {
+        if (this.outputFile == null) {
+            return;
+        }
+
+        if (this.outputFile.exists()) {
+            this.outputFile.delete();
         }
 
         Set<String> dirs = new HashSet<>();
-        try (ZipOutputStream outputStream = new ZipOutputStream(Files.newOutputStream(outputFile.toPath()))) {
+        try (ZipOutputStream outputStream = new ZipOutputStream(Files.newOutputStream(this.outputFile.toPath()))) {
             outputStream.setLevel(9);
             for (ClassNode classNode : classes.values()) {
                 try {
@@ -68,11 +88,11 @@ public class ExecutableJar {
         }
     }
 
-    private void readJar(File inputFile) {
+    public void readJar() {
         HashMap<String, ClassNode> classes = new HashMap<>();
         HashMap<String, byte[]> resources = new HashMap<>();
 
-        try (ZipInputStream inputStream = new ZipInputStream(new FileInputStream(inputFile))) {
+        try (ZipInputStream inputStream = new ZipInputStream(new FileInputStream(this.inputFile))) {
             ZipEntry zipEntry;
             while ((zipEntry = inputStream.getNextEntry()) != null) {
                 if (zipEntry.isDirectory()) {
